@@ -1,0 +1,45 @@
+h1{font-weight:400; }
+
+.wrapper {
+    padding: 0 1rem;
+    margin-left: -1rem;
+    margin-right: auto;
+}
+
+.project-header{
+    font-size: 14px;
+    line-height: 0.1;
+    margin-top: -3px;
+}
+
+.page-header {
+    border-bottom: 2px solid #424242;
+    min-height: 65.95px;
+    position: relative;
+    margin-left: 2rem;
+}
+
+.site-title {
+    color: #424242;
+    font-family: "Roboto Condensed";
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 54px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
+}
+
+.page-content {
+    margin-top: 25rem;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+  }
+.page-content h1 {
+    font-size: 20px;
+    letter-spacing: -1px;
+    line-height: 1;
+  }
+
+
+
