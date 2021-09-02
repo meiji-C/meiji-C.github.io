@@ -90,9 +90,11 @@ h1{font-weight:400; }
     justify-content: left;
 }
 
-.content {
+
+
+.main-content {
     margin-left: 0rem;
-    margin-top: 0rem;
+    margin-top: 1rem;
 }
 
 h2{
