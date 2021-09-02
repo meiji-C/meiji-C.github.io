@@ -68,7 +68,8 @@ h1{font-weight:400; }
 .page-content {
     margin-top: 10rem;
     margin-bottom: 3rem;
-    margin-left: 4rem;
+    margin-left: 10%;
+
 }
 
 .sticky{
@@ -82,7 +83,9 @@ h1{font-weight:400; }
 .main-content{
     display:flex;
     right:2rem;
-    height:15rem;
+    height:12rem;
+    width:40%;
+    justify-content: space-between;
 }
 
 .content-pic{
@@ -104,14 +107,14 @@ h1{font-weight:400; }
 
 .words{
     margin:0;
-    padding-right:5rem;
+    padding-right:0.5rem;
 }
 
 .eng{
     margin: 0;
-    text-align:leftt;
-    font-size: 20px;
-    font-weight: 380;
+    text-align:right;
+    font-size: 18px;
+    font-weight: normal;
     font-family: "Roboto Condensed";
     color: #424242;
 }
@@ -124,14 +127,80 @@ h1{font-weight:400; }
 
 .ch{
     margin: 0;
-    text-align:left;
+    text-align:right;
     font-size: 18px;
     font-weight: 300px;
 }
 
+.chn2{
+    color: #000000;
+    margin: 0;
+    text-align:left;
+    font-size: 16px;
+    font-weight: 300px;
+}
+
 .eng2{
+    color: #424242;
+    margin: 0;
+    text-align:right;
+    font-size: 14px;
+    font-weight: 300px;
+}
+
+.eng3{
+    color: #424242;
     margin: 0;
     text-align:left;
     font-size: 14px;
     font-weight: 300px;
+}
+
+.chn3{
+    color: #000000;
+    margin-top:-0.1rem ;
+    margin-bottom: 0;
+    text-align:right;
+    font-size: 12px;
+    font-weight: 300px;
+    z-index:5
+
+}
+
+.sub-content{
+    display:flex;
+    margin-left:0rem;
+    width: 40%;
+    margin-top: 0;
+    justify-content: space-between;
+}
+
+.left-content{
+    margin:0;
+    width:45%;
+}
+
+.right-content{
+    display:flex;
+    margin:0;
+    width:45%;
+    position:relative;
+}
+
+.right-content > p{
+    position:absolute;
+    right:0;
+}
+
+.code-image{
+    margin-top: 1.2rem;
+    margin-right:0rem;
+}
+
+.code-image img{
+    width:7rem;
+    height:7rem;
+    position:absolute;
+    right:0;
+    bottom:0
 }
