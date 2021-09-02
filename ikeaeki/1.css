@@ -9,6 +9,8 @@ h1{font-weight:400; }
     margin-left: 4rem;
 }
 
+
+
 .page-header > div{
     display:flex;
     justify-content: space-between;
@@ -23,6 +25,11 @@ h1{font-weight:400; }
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+}
+
+.site-title > a {
+    text-decoration: none;
+    color: #424242;
 }
 
 .wrapper > nav{

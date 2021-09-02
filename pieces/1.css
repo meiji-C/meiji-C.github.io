@@ -71,6 +71,11 @@ h1{font-weight:400; }
     margin-left: 4rem;
 }
 
+.site-title > a {
+    text-decoration: none;
+    color: #424242;
+}
+
 .sticky{
     position:sticky;
     top: 0;
