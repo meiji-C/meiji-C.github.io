@@ -1,0 +1,139 @@
+h1{font-weight:400; }
+
+
+
+.page-header {
+    border-bottom: 2px solid #424242;
+    min-height: 70.95px;
+    position: relative;
+    margin-left: 4rem;
+}
+
+.page-header > div{
+    display:flex;
+    justify-content: space-between;
+}
+
+.site-title {
+    color: #424242;
+    font-family: "Roboto Condensed";
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 54px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
+}
+
+.wrapper {
+    padding: 0 1rem;
+    margin-left: -1rem;
+    margin-right: auto;
+}
+
+.wrapper > nav{
+    margin-top: 2.5rem;
+}
+
+.wrapper > nav a {
+    text-decoration-line: line-through;
+    margin-left:1rem;
+    color: #424242;
+    font-family: "Roboto Condensed";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 0rem;
+}
+
+.position {
+    width: 37%;
+    position: static;
+}
+
+.content-eng{
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-size: 14px;
+    color:#969696
+}
+
+.project-header{
+    font-size: 12px;
+    line-height: 0.1;
+    margin-top: -3px;
+    padding-bottom: 2rem;
+}
+
+.page-content {
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+}
+
+.sticky{
+    position:sticky;
+    top: 0;
+    z-index:5;
+    background-color:rgba(255, 255, 255, 0.8);
+
+}
+
+.position{
+    position:static;
+    bottom: 0;
+    width:100%;
+}
+
+.project{
+    display:flex;
+    justify-content: left;
+}
+
+.content {
+    margin-left: 0rem;
+    margin-top: 0rem;
+}
+
+h2{
+    /*text-decoration-line: line-through;*/
+    color: #424242;
+    font-family: "Roboto Condensed";
+    padding:0;
+    margin:0;
+    margin-bottom: 1rem;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.link > a {
+    text-decoration: none;
+
+}
+
+.project-image img{
+    height:30rem;
+    width:auto;
+}
+
+.project-content{
+    margin-left: 0.7rem;
+    position:relative;
+    bottom:0;
+    width:100%;
+}
+
+.link{
+    bottom:0.1rem;
+    position:absolute;
+    width:100%;
+    margin-bottom: 0.1rem;
+}
+
+.content2{
+    margin:0;
+    font-size: 15px;
+    color:black;
+
+}
